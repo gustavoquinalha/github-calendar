@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+body,
+html {
+  height: 100%;
+}
+h2 {
+  font-size: 30px
+}
+.commit-calendar {
+  margin: 0 auto;
+  max-width: 90%;
+  overflow-x: auto;
+  padding-top: 50px;
+}
+.commit-calendar ul li {
+  display: flex;
+  height: 10px;
+  width: 10px
+}
+.legend {
+  display: flex;
+  margin: 5px;;
+  padding: 0;
+}
+.contrib-legend {
+  display: flex;
+  align-items: center
+}
+.contrib-column {
+  margin-top: 5px;
+  margin-bottom: 5px
+}
+.commit-calendar text {
+  font-size: 10px;
+}
